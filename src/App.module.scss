@@ -18,6 +18,11 @@
   position: absolute;
   top: -15px;
   z-index: 1;
+  transition: 0.2s;
+}
+
+.avatar span:hover {
+  transform: scale(1.1);
 }
 
 .avatar > img {
